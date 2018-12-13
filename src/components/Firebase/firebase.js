@@ -28,6 +28,8 @@ class Firebase {
         app.initializeApp(config);
 
         this.auth = app.auth();
+
+        console.log("APPI-Key" + devConfig.apiKey);
     }
 
     // *** Auth API ***
